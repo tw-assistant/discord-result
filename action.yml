@@ -1,0 +1,15 @@
+name: 'Discord result'
+description: 'Send pipelines result on discord'
+inputs:
+    webhook:
+        description: 'Discord Webhook'
+        required: true
+    github:
+        description: 'Github Context'
+        required: true
+    needs:
+        description: 'Needs Context'
+        required: true
+runs:
+    using: 'node12'
+    main: 'dist/index.js'

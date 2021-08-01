@@ -1,0 +1,24 @@
+{
+  "name": "discord-result",
+  "version": "1.0.0",
+  "description": "\"# discord-result\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tw-assistant/discord-result.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tw-assistant/discord-result/issues"
+  },
+  "homepage": "https://github.com/tw-assistant/discord-result#readme",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "axios": "^0.21.1"
+  }
+}
