@@ -34,7 +34,7 @@ const resultIcons = {
 let content = `${workflow} result:\n`;
 const _needs = JSON.parse(needs);
 Object.keys(_needs).forEach((job) => {
-  content += `${resultIcons[_needs[job].result]} ${needs} job\n`;
+  content += `${resultIcons[_needs[job].result]} ${job} job\n`;
 });
 content += `\nRepository: ${repository}`;
 
